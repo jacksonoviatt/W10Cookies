@@ -1,0 +1,28 @@
+body {
+    background-color: #DBD8B3;
+    
+}
+
+.menuCard {
+    display: inline-block;
+    margin: 10px;
+    width: 200px;
+    height: 300px;
+    background-color: #C6D8AF;
+    display: gird;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 5px 5px 5px #5A5353;
+    &:hover {
+        box-shadow: 10px 10px 10px #5A5353;
+    }
+    img {
+        width: 80%;
+        margin: 20px 10% 0px;
+    }
+    p, h3 {
+        text-align: center;
+    }
+   
+}
+
